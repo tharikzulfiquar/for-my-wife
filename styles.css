@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0e6f6;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    border: 2px solid #c08cf5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    display: none;
+}
+
+.flowers {
+    display: none;
+    margin-top: 20px;
+}
+
+.flowers img {
+    width: 100px;
+    height: auto;
+    margin: 0 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #c08cf5;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a067c5;
+}
